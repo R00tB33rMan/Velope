@@ -128,7 +128,7 @@ public class Velope {
         CommandManager manager = proxyServer.getCommandManager();
         manager.register(
                 manager.metaBuilder("lobby")
-                        .aliases("leave", "back")
+                        .aliases("leave")
                         .build(),
                 injector.getInstance(LobbyCommand.class));
         manager.register(
@@ -403,7 +403,7 @@ public class Velope {
 
                     if (currentServer.isPresent() && currentServer.get().getName().equals(velopedServer.getName())) {
                         invocation.source().sendMessage(Component
-                                .text("You are already at your destination.")
+                                .text("You are already connected to a lobby.")
                                 .color(NamedTextColor.RED));
                         return;
                     }

@@ -69,7 +69,7 @@ public class LobbyCommand implements SimpleCommand {
 
         if (destination == null) {
             source.sendMessage(Component
-                    .text("There is nowhere to go.")
+                    .text("There is no other available instance to connect to.")
                     .color(NamedTextColor.RED));
             return;
         }

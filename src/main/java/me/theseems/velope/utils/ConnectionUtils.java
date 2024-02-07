@@ -25,7 +25,7 @@ public class ConnectionUtils {
                 .ifPresentOrElse(
                         (server) -> connectAndSupervise(player, server, velopedServer),
                         () -> player.sendMessage(
-                                Component.text("Could not find you a lobby. Try again later.")
+                                Component.text("Could not find an available lobby. Try again later.")
                                         .color(NamedTextColor.RED)
                         )
                 );

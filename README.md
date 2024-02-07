@@ -31,7 +31,7 @@ portal (bungee:<group_name>), and it will work on any server (inside the group).
 - /velope reload - Reload config | velope.reload
 - /velope recent <player_name> - View the most recent redirect from Velope | velope.recent
 - /vstatus <server_name> - Get status of either regular or veloped server | velope.status.use
-- /lobby (/leave, /back) - Connect to parent veloped Server (if there's any) | velope.use.lobby
+- /lobby (/leave) - Connect to parent veloped Server (if there's any) | velope.use.lobby
 
 ## Config (Description)
 

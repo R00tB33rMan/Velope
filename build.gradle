@@ -13,7 +13,7 @@ def getVersionName = { ->
     return stdout.toString().trim()
 }
 ext {
-    devBuild = true
+    devBuild = false
 }
 
 group = 'me.theseems'

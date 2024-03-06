@@ -116,7 +116,7 @@ For the moment there are two basic balancer strategies:
 
 - FIRST - created for testing purposes, it always outputs the first server that has been associated with a group
 - HIGHEST - basically tries to fill the server: outputs server with the largest amount of players connected
-- LOWEST - outputs server with the least amount of players connected'
+- LOWEST - outputs server with the least amount of players connected
 - RANDOM - outputs random available server
 
 ## Support
